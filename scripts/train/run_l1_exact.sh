@@ -23,7 +23,7 @@ if [ -z "$MODEL_PATH" ]; then
 fi
 
 # Ensure only one GPU is used (A6000 is usually index 0)
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=1
 
 # Adjust batch sizes for a single GPU (you may need to lower further if OOM)
 TRAIN_BATCH_SIZE=16
