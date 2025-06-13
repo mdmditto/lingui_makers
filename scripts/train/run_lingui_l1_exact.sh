@@ -31,7 +31,7 @@ VAL_BATCH_SIZE=64
 PPO_MINI_BATCH_SIZE=8
 
 # Launch training (adjusted for 1 GPU)
-python3 lingui_makers/main_ppo.py \
++ python3 ../../main_ppo.py \
     algorithm.adv_estimator=grpo \
     data.train_files=$HOME/deepscaler/data/train.parquet \
     data.val_files=$HOME/deepscaler/data/aime.parquet \
