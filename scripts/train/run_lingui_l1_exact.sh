@@ -55,7 +55,7 @@ python3 ../../main_ppo.py \
     actor_rollout_ref.rollout.tensor_model_parallel_size=1 \
     actor_rollout_ref.rollout.name=vllm \
     actor_rollout_ref.rollout.temperature=0.6 \
-    actor_rollout_ref.rollout.val_temperature=0.6 \
+    +actor_rollout_ref.rollout.val_temperature=0.6 \
     actor_rollout_ref.rollout.gpu_memory_utilization=0.95 \
     actor_rollout_ref.rollout.n=4 \
     actor_rollout_ref.rollout.n_val=4 \
