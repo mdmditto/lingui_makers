@@ -76,4 +76,5 @@ python3 ../../main_ppo.py \
     reward_config.multiplier_reward=False \
     actor_rollout_ref.rollout.enforce_eager=False \
     actor_rollout_ref.rollout.free_cache_engine=False \
+    +actor_rollout_ref.rollout.multi_turn.enable=False \
     reward_config.alpha=0.0003
