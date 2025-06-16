@@ -77,4 +77,5 @@ python3 ../../main_ppo.py \
     actor_rollout_ref.rollout.enforce_eager=False \
     actor_rollout_ref.rollout.free_cache_engine=False \
     +actor_rollout_ref.rollout.multi_turn.enable=False \
+    +actor_rollout_ref.actor.fsdp_config.use_flash_attn=False \
     reward_config.alpha=0.0003
